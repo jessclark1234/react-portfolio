@@ -1,9 +1,10 @@
 import { useState } from 'react';
 import NavTabs from './NavTab';
-import Homepage from './pages/Home';
+import Homepage from './pages/Homepage';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
+import Resume from './pages/Resume';
 
 export default function App() {
     const [currentPage, setCurrentPage] = useState('Homepage');
@@ -21,9 +22,9 @@ export default function App() {
         if (currentPage === "Contact") {
             return <Contact />;
         }
-        // if (currentPage === "Homepage") {
-        //     return <Homepage />;
-        // }
+        if (currentPage === "Resume") {
+            return <Resume />;
+        }
     };
 
     const pageChange = (page) => setCurrentPage(page);
