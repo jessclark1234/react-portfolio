@@ -1,10 +1,13 @@
 import { useState } from 'react';
-import NavTabs from './NavTab';
-import Homepage from './pages/Homepage';
-import About from './pages/About';
-import Projects from './pages/Projects';
-import Contact from './pages/Contact';
-import Resume from './pages/Resume';
+import React from 'react';
+import Header from './components/pages/Header';
+import NavTabs from './components/NavTab';
+import Homepage from './components/pages/Homepage';
+import About from './components/pages/About';
+import Projects from './components/pages/Projects';
+import Contact from './components/pages/Contact';
+import Resume from './components/pages/Resume';
+
 
 export default function App() {
     const [currentPage, setCurrentPage] = useState('Homepage');
@@ -32,7 +35,7 @@ export default function App() {
     return (
         <section>
             <NavTabs currentPage={currentPage} pageChange={pageChange} />
-            <main className='main?'>{showPage}</main>
+            <main className='main'>{showPage()}</main>
         </section>
     );
 }
