@@ -34,6 +34,7 @@ export default function App() {
 
     return (
         <section>
+            <Header />
             <NavTabs currentPage={currentPage} pageChange={pageChange} />
             <main className='main'>{showPage()}</main>
         </section>

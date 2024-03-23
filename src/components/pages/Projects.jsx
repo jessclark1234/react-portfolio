@@ -2,7 +2,7 @@ import React from 'react';
 export default function Projects() {
     return (
         <section>
-            <h1>Check out some of my projects</h1>
+            <h2>Check out some of my projects</h2>
                 <ul>
                     <li>
                         <a class='' href='https://jessclark1234.github.io/weather-api-app/'><img src='./assets/projectPhotos/weatherAPI.png' alt='5 Day Weather API'></img></a>

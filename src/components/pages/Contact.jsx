@@ -2,7 +2,7 @@ import React from 'react';
 export default function Contact() {
     return (
         <section>
-            <h1>Hey you should contact me!</h1>
+            <h2>Hey you should contact me!</h2>
             <form>
                 <ul>
                     <li>

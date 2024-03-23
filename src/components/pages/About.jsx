@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from './Header';
+
 export default function About() {
     return (
         <section>
-            <h1>About Me!</h1>
+            <h2>About Me!</h2>
             <h3>
                 Hi there! I started my Fullstack Web Development journey in September in 2023. I'm about to graduate my bootcamp with a certificate from University of California, Irvine. In this program I learned a lot.
                 <p>
