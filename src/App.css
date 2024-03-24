@@ -1,0 +1,105 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #DCE3E5;
+    text-align: center;
+}
+
+section{
+    background-color: #28262C;
+}
+
+header, footer{
+    font-size: 60px;
+    background-color: #28262C;
+    margin-bottom: 20px;
+    height: 100px;
+}
+
+#avatar{
+    margin: 30px;
+}
+
+.navtab {
+    display: block;
+    overflow: hidden;
+    background-color: #CD5334;
+    font-size: 20px;
+}
+
+.navtab li{
+    float: left;
+    margin-left: 150px;
+    padding: 5px;
+}
+
+.navtab li:hover{
+    background-color: #F3F7F5;
+    color: #CD5334;
+}
+
+.title{
+    font-size: 45px;
+    padding-top: 30px;
+}
+
+li{
+    list-style: none;
+}
+
+#homeDescription, #aboutDescription {
+    padding: 60px;
+}
+
+.description{
+    font-size: 15px;
+}
+
+
+#formBtn{
+    background-color: #CD5334;
+    border-radius: 30px;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 20px;
+    border: #F2E1CF 1px solid;
+}
+
+#formBtn:hover, #resumeBtn:hover{
+    background-color: #F2E1CF;
+    color: #CD5334;
+}
+
+.input{
+    border: 2px solid #F3F7F5;
+    margin: 12px;
+    height: 25px;
+    width: 300px;
+    border-radius: 30px;
+    background-color: #F2E1CF;
+}
+
+.input:focus{
+    outline: 3px solid #CD5334;
+}
+
+#resumeTxt, #aboutTxt{
+    margin: 30px;
+}
+
+#resumeBtn{
+    background-color: #CD5334;
+    border-radius: 30px;
+    width: 200px;
+    height: 40px;
+    margin-bottom: 20px;
+    border: #F2E1CF 1px solid;
+}
+
+.img{
+    margin: 20px;
+    object-fit: fill;
+    height: 500px;
+    width: 700px;
+}
+
+

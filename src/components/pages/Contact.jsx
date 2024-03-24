@@ -1,28 +1,28 @@
 import React from 'react';
 export default function Contact() {
     return (
-        <section class='page' id='contactPage'>
-            <h2 class='title' id='contactTitle'>Hey you should contact me!</h2>
-            <form class='form' id='contact-form'>
-                <ul class='formArea' id='formArea'>
-                    <li class='infoArea' id='nameArea'>
-                        <label class='label' id='nameLabel'>Name:</label>
-                        <input class='input' id='nameInput'></input>
+        <section className='page' id='contactPage'>
+            <h2 className='title' id='contactTitle'>Hey you should contact me!</h2>
+            <form className='form' id='contact-form'>
+                <ul className='formArea' id='formArea'>
+                    <li className='infoArea' id='nameArea'>
+                        <label className='label' id='nameLabel'>Name:</label>
+                        <input className='input' id='nameInput'></input>
                     </li>
-                    <li class='infoArea' id='emailArea'>
-                        <label class='label' id='emailLabel'>Email:</label>
-                        <input class='input' id='emailInput'></input>
+                    <li className='infoArea' id='emailArea'>
+                        <label className='label' id='emailLabel'>Email:</label>
+                        <input className='input' id='emailInput'></input>
                     </li>
-                    <li class='infoArea' id='timeArea'>
-                        <label class='label' id='timeLabel'>Best time to reach you:</label>
-                        <input class='input' id='timeInput'></input>
+                    <li className='infoArea' id='timeArea'>
+                        <label className='label' id='timeLabel'>Best time to reach you:</label>
+                        <input className='input' id='timeInput'></input>
                     </li>
-                    <li class='infoArea' id='discussArea'>
-                        <label class='label' id='discussLabel'>What you'd like to discuss:</label>
-                        <input class='input' id='discussInput'></input>
+                    <li className='infoArea' id='discussArea'>
+                        <label className='label' id='discussLabel'>What you'd like to discuss:</label>
+                        <input className='input' id='discussInput'></input>
                     </li>
                 </ul>
-                <button class='button' id='formBtn'>Send</button>
+                <button className='button' id='formBtn'>Send</button>
             </form>
         </section>
     );
