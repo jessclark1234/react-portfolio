@@ -7,6 +7,8 @@ import About from './components/pages/About';
 import Projects from './components/pages/Projects';
 import Contact from './components/pages/Contact';
 import Resume from './components/pages/Resume';
+import Footer from './components/pages/Footer';
+
 import './App.css';
 
 export default function App() {
@@ -37,6 +39,7 @@ export default function App() {
             <Header />
             <NavTabs currentPage={currentPage} pageChange={pageChange} />
             <main className='main'>{showPage()}</main>
+            <Footer />
         </section>
     );
 }
