@@ -7,7 +7,7 @@ import About from './components/pages/About';
 import Projects from './components/pages/Projects';
 import Contact from './components/pages/Contact';
 import Resume from './components/pages/Resume';
-
+import './App.css';
 
 export default function App() {
     const [currentPage, setCurrentPage] = useState('Homepage');
