@@ -4,6 +4,10 @@
     text-align: center;
 }
 
+#webpageTitle{
+    padding: 30px;
+}
+
 section{
     background-color: #28262C;
 }
